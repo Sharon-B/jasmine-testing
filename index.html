@@ -5,7 +5,8 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Jasmine Testing</title>
-	<!-- 4 files needed for JAsmine - must be in this order-->
+    <!-- Load Jasmine Framework -->
+	<!-- 4 files needed for Jasmine - must be in this order-->
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jasmine/3.6.0/jasmine.js"
 		integrity="sha512-dqL4nYnbiMiNNy/V2zRK55QXSRVyu26KCuGoL8Zf5lDfKRRf8pBFW8RXe8at36QlB8s8bnOjKP6b5YTalHO6wQ=="
 		crossorigin="anonymous"></script>
@@ -18,6 +19,13 @@
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jasmine/3.6.0/jasmine.css"
 		integrity="sha512-XKXP02aeSNI5HsDB3+4MM0tSDXJTBFZpt99xL7PvMz3+A3aRy0F0Ne/CATK+Z72ckE/4Ev9OiosWQr5LtU284Q=="
 		crossorigin="anonymous" />
+
+    <!-- Load Scripts First! -->
+    <script type="text/javascript" src="scripts/calc.js"></script>
+
+    <!-- Load Tests (Spec) After! -->
+    <script type="text/javascript" src="spec/calcSpec.js"></script>
+
 </head>
 
 </html>
